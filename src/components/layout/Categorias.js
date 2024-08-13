@@ -3,26 +3,11 @@ import moto from '../../img/DSC_2529.jpg'
 import carro from '../../img/carrosLado.jpg'
 import bus from '../../img/geral.jpg'
 import carroEmoto from '../../img/carroEmotoCentro.jpg'
-import { FloatingWhatsApp } from 'react-floating-whatsapp';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faWhatsapp } from '@fortawesome/free-brands-svg-icons';
 import logo from "../../img/logo.jpg";
 
 export default function Categorias(){
     return(
         <div>
-                      <FloatingWhatsApp 
-                phoneNumber= "77998343655" 
-                accountName="Nova AutoLem" 
-                allowEsc 
-                allowClickAway 
-                notification = {true}
-                notificationSound = {true}
-                avatar={logo}
-                statusMessage='Online'
-                placeholder='Eu quero me matricular agora!!'
-                chatMessage="Olá, tudo bem com você? Venha já para a Auto escola de qualidade que você merece! Entre em contato clicando abaixo"
-                />
 
     <section className="categories">
         <h2>1º HABILITAÇÃO</h2>

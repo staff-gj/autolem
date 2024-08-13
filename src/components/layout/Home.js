@@ -44,9 +44,6 @@ import motosTras from '../../img/motosTras.jpg'
 //fotosacima
 
 
-import { FloatingWhatsApp } from 'react-floating-whatsapp';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faWhatsapp } from '@fortawesome/free-brands-svg-icons';
 import logo from "../../img/logo.jpg"; 
 import './Home.style.css'
 
@@ -137,19 +134,6 @@ export default function Home(){
 
     return(
         <div>
-                      <FloatingWhatsApp 
-                phoneNumber= "77998343655" 
-                accountName="Nova AutoLem" 
-                allowEsc 
-                allowClickAway 
-                notification = {true}
-                notificationSound = {true}
-                avatar={logo}
-                statusMessage='Online'
-                placeholder='Eu quero me matricular agora!!'
-                chatMessage="Olá, tudo bem com você? Venha já para a Auto escola de qualidade que você merece! Entre em contato clicando abaixo"
-                />
-
           <SimpleDialogContainer />
                   <main>
       <h1 className="formando">Formando</h1>
