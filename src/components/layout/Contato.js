@@ -16,7 +16,6 @@ export default function Contato() {
                 </div>
                 <div className="whatsapp-chat-box">
                     <div className="whatsapp-chat-header">
-                        <FontAwesomeIcon icon={faWhatsapp} className="whatsapp-icon" />
                     </div>
                     <div className="whatsapp-chat-message">
                         <div className="whatsapp-message question">
