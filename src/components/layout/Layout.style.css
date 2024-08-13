@@ -6,7 +6,7 @@ body {
   .barra {
     position: absolute;
     margin-left: 830px;
-    margin-top: -30px;
+    margin-top: -40px;
   }
   
   .container {
@@ -15,11 +15,11 @@ body {
   }
   
   .header {
-    background-color: #fa0000;
+    background-color: #000000;
     padding: 150px 0;
   }
   .headerFooter{
-    background-color: #fa0000;
+    background-color: #000000;
     padding: 30px 0;
   }
   
@@ -33,7 +33,7 @@ body {
     position: absolute;
     margin-top: -130px;
     margin-left: -870px;
-    color: #fff;
+    color: rgb(255, 255, 255);
     font-size: 80px;
   }
   
@@ -66,6 +66,16 @@ body {
     color: white;
     font-weight: bold;
     cursor: pointer;
+  }
+
+  .Links{
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    text-decoration: none;
+  }
+  .Links:hover{
+    color:#ffeb3b;
   }
   
   main {
@@ -167,6 +177,8 @@ body {
     body {
         margin: 0;
         font-family: Arial, sans-serif;
+        height: 100vh;
+        width: 100%; 
       }
       
       .barra {
@@ -181,7 +193,7 @@ body {
       }
       
       .header {
-        background-color: #fa0000;
+        background-color: #000000;
         padding: 50px 0;
         height: 10vh;
         width: 100%; 
@@ -194,14 +206,16 @@ body {
       }
       
       .logo {
-        width: 100px;
+        position: absolute;
+        width: 200px;
         display: block;
-        margin-top: -50px;
+        margin-top: 50px;
+        margin-left: 120px;
       }
       
       .formando {
         position: absolute;
-        margin-top: -50px;
+        margin-top: -60px;
         margin-left: -200px;
         color: #fff;
         font-size: 40px;

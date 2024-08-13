@@ -54,3 +54,21 @@
   .carousel-next {
     right: 0;
   }
+
+
+  @media only screen and (max-width: 768px) {
+    .carousel-inner {
+        flex-wrap: nowrap;
+    }
+
+    .carousel-item {
+        flex: 0 0 80%;
+        margin: 5px;
+    }
+
+    .carousel-prev,
+    .carousel-next {
+        padding: 5px;
+        border-radius: 50%;
+    }
+}

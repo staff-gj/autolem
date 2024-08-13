@@ -1,0 +1,112 @@
+.App {
+  text-align: center;
+  background-color: black; /* Cor de fundo preta */
+  padding: 20px;
+  color: white; /* Texto branco */
+  margin-top: -20px;
+  min-height: 100vh; /* Garante que a página ocupe a altura total */
+}
+
+.header h1 {
+  font-size: 2em;
+  color: #FFEB3B; /* Texto amarelo */
+  margin-bottom: -40px;
+}
+
+.categories {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+  padding: 20px 0;
+}
+
+.category {
+  background-color: black; /* Cor de fundo preta */
+  padding: 10px ;
+  border-radius: 10px;
+  border: 2px solid #FFEB3B; /* Borda amarela */
+  width: 2000px; /* Define uma largura fixa */
+  height: 500px; /* Define uma altura fixa */
+  position: relative;
+  overflow: hidden;
+}
+
+.category img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Ajusta a imagem para cobrir todo o container */
+  border-radius: 8px;
+  transition: transform 0.3s;
+}
+
+.category img:hover {
+  transform: scale(1.05);
+}
+
+.category h3 {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  background-color: rgba(0, 0, 0, 0.7); /* Fundo semi-transparente */
+  color: #FFEB3B; /* Texto amarelo */
+  padding: 5px 10px;
+  border-radius: 5px;
+  margin: 0;
+}
+
+/* Novo estilo para .category-label */
+.category-label {
+  background-color: #fffef9; /* Fundo amarelo */
+  color: black; /* Texto preto */
+  padding: 10px;
+  border-radius: 10px;
+  position: absolute;
+  top: 10px;
+  left: 91%;
+  transform: translateX(-50%);
+  transition: background-color 0.3s, color 0.3s;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.category-label:hover {
+  background-color: black; /* Fundo preto */
+  color: #FFEB3B; /* Texto amarelo */
+}
+
+/* Estilo para botões de navegação do carrossel */
+.carousel-prev,
+.carousel-next {
+  background-color: #FFEB3B;
+  color: black;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1.2em;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  transition: background-color 0.3s;
+  z-index: 1;
+}
+
+.carousel-prev:hover,
+.carousel-next:hover {
+  background-color: white;
+  color: black;
+}
+
+.carousel-prev {
+  left: 10px;
+}
+
+.carousel-next {
+  right: 10px;
+}
+
+.global {
+  margin-top: -300px;
+}

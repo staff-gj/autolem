@@ -1,0 +1,51 @@
+body{
+    background-color: black;
+}
+
+.quadrado{
+    background-color: rgb(238, 255, 0);
+    padding: 50px;
+    color: black;
+}
+
+.quadrado img{
+    position: absolute;
+    width: 400px;
+    margin-top: -50px;
+}
+
+
+.img2{
+    margin-left: 700px;
+}
+
+.quadradoTexto1{
+    margin-left: 500px;
+    color: black;
+}
+
+.quadradoTexto2{
+    color: black;
+}
+
+.imagem2{
+    margin-left: 813px;
+}
+
+.imagem3{
+    margin-left: 813px;
+}
+
+
+.imagem1{
+    width: 500px;
+}
+
+h1{
+    color: black;
+}
+
+.global1{
+
+    margin-top: -200px;
+}

@@ -1,0 +1,149 @@
+.custom-attendance {
+    text-align: center;
+    background-color: black; /* Cor de fundo preta */
+    padding: 20px;
+    color: rgba(6, 6, 6, 0.797); /* Texto branco */
+  }
+  
+  .custom-attendance-header h1 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    color: #FFEB3B; /* Texto amarelo */
+    margin-bottom: 50px;
+  }
+  
+  .whatsapp-chat-box {
+    background-color: #ECE5DD; /* Fundo padrão do WhatsApp */
+    border-radius: 10px;
+    display: inline-block;
+    padding: 10px 100px 10px 100px;
+    width: 300px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15);
+  }
+  
+  .whatsapp-chat-header {
+    text-align: left;
+    padding: 5px 0;
+    margin-bottom: 10px;
+  }
+  
+  .whatsapp-icon {
+    margin-left: -80px;
+    position: absolute;
+    color: #25D366;
+    font-size: 2em;
+  }
+  
+  .whatsapp-chat-message {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .whatsapp-message {
+    background-color: #fff;
+    border-radius: 7.5px;
+    padding: 10px;
+    max-width: 80%;
+    word-wrap: break-word;
+    display: inline-block;
+    position: relative;
+  }
+  
+  .question {
+    background-color: #DCF8C6;
+    align-self: flex-start;
+  }
+  
+  .answer {
+    background-color: #fff;
+    align-self: flex-end;
+  }
+  
+  .whatsapp-message:before {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 0;
+  }
+  
+  .question:before {
+    border-top: 10px solid #DCF8C6;
+    border-left: 10px solid transparent;
+    left: -10px;
+    top: 10px;
+  }
+  
+  .answer:before {
+    border-top: 10px solid #fff;
+    border-right: 10px solid transparent;
+    right: -10px;
+    top: 10px;
+  }
+  
+  .custom-attendance-footer {
+    margin-top: 20px;
+  }
+  
+  .custom-attendance-register-button {
+    background-color: #25D366; /* Botão verde WhatsApp */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1em;
+    cursor: pointer;
+  }
+  
+  .custom-attendance-register-button:hover {
+    background-color: #1ebe5a; /* Escurecer o verde no hover */
+  }
+  
+  .contatopag{
+    margin-top: -150px;
+  }
+
+
+  @media only screen and (max-width: 768px) {
+    .custom-attendance {
+        padding: 10px;
+    }
+
+    .custom-attendance-header h1 {
+        font-size: 1.5em;
+        margin-bottom: 10px;
+    }
+
+    .whatsapp-chat-box {
+        padding: 10px 20px;
+        width: 100%;
+    }
+
+    .whatsapp-icon {
+        font-size: 1.5em;
+        margin-left: 0;
+    }
+
+    .whatsapp-chat-message {
+        gap: 5px;
+    }
+
+    .whatsapp-message {
+        padding: 5px;
+        max-width: 100%;
+    }
+
+    .custom-attendance-register-button {
+        width: 100%;
+        padding: 10px;
+    }
+
+    .contatopag {
+        margin-top: 0;
+    }
+}
+
+
+
+
+
